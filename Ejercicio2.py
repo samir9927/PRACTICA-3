@@ -23,7 +23,7 @@ class ListaDeTareas:
             aux.siguiente = self.primero
             self.primero = aux
             self.ultimo.siguiente = self.primero
-
+        lista.recorrer()
 
     def recorrer(self):
 
@@ -49,13 +49,13 @@ class ListaDeTareas:
                 aux = aux.siguiente
             aux.siguiente = self.primero
             self.ultimo = aux
-
+        lista.recorrer()
 
 try:
     if __name__ == "__main__":
         opcion = 0
         lista = ListaDeTareas()
-        while opcion != 4:
+        while opcion != 3:
             print("--- Lista de Tareas ---\n 1. Agregar Tarea\n 2. Eliminar Tarea\n 3. Salir")
             opcion = int(input("Ingrese su opción "))
 
