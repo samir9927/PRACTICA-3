@@ -53,7 +53,7 @@ try:
     if __name__ == "__main__":
         opcion = 0
         lista = listaDeCompras()
-        while opcion != 4:
+        while opcion != 3:
             print("--- Lista de Compras ---\n 1. Agregar Producto\n 2. Eliminar Producto\n 3. Salir de Lista")
             opcion = int(input("Ingrese su opción "))
 
